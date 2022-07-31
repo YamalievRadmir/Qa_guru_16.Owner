@@ -8,7 +8,7 @@ import java.net.URL;
 public interface WebDriverConfig extends Config {
 
     @Key("base.url")
-    @DefaultValue("https://market.yandex.ru/")
+    @DefaultValue("https://www.ozon.ru/")
     String getBaseUrl();
 
     @Key("browser.name")

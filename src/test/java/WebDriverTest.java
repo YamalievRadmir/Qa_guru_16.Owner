@@ -18,13 +18,13 @@ public class WebDriverTest {
     }
 
     @Test
-    public void testYandexMarket() {
+    public void testOzon() {
 
         String title = driver.getTitle();
-        WebElement searchbar = driver.findElement(By.id("header-search"));
+        WebElement searchbar = driver.findElement(By.className("ga8a"));
         searchbar.sendKeys("Пылесос");
         searchbar.submit();
-        Assertions.assertEquals("Бытовая техника", title);
+        Assertions.assertEquals("OZON — интернет-магазин. Миллионы товаров по выгодным ценам", title);
 
 
     }

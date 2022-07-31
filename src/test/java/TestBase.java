@@ -19,7 +19,7 @@ public class TestBase {
         }
         String baseUrlOfPage = System.getProperty("base.url");
         if (Objects.isNull(baseUrlOfPage)) {
-            baseUrlOfPage= "https://market.yandex.ru/";
+            baseUrlOfPage= "https://www.ozon.ru/";
         }
         open(baseUrlOfPage);
     }
